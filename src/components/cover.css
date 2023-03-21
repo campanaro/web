@@ -1,0 +1,21 @@
+.cover {
+  background-color: var(--black);
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover > video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.cover > canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
