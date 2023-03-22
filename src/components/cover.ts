@@ -3,8 +3,6 @@ const PERCENTAGE = 0.1;
 const HALF = 2;
 const SIZE = document.body.clientWidth / HALF;
 
-console.log(SIZE);
-
 const HEIGHT = SIZE;
 const WIDTH = SIZE;
 
