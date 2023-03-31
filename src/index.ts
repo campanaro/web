@@ -1,2 +1,2 @@
 import "./style.css";
-import "./components/cover";
+import "./components/cover/cover";
