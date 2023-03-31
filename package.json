@@ -1,7 +1,7 @@
 {
-  "name": "web",
-  "version": "1.0.0",
-  "description": "",
+  "name": "campanaro-personal-website",
+  "version": "0.1.0",
+  "description": "Adriano Campanaro Personal Website",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -13,13 +13,29 @@
     "type": "git",
     "url": "git+https://github.com/campanaro/web.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "adriano",
+    "campanaro",
+    "personal",
+    "website",
+    "portfolio",
+    "static",
+    "web",
+    "frontend",
+    "front-end",
+    "html",
+    "html5",
+    "css",
+    "css3",
+    "javascript",
+    "js"
+  ],
+  "author": "Adriano Campanaro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/campanaro/web/issues"
   },
-  "homepage": "https://github.com/campanaro/web#readme",
+  "homepage": "https://campanaro.com.br",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
