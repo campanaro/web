@@ -12,7 +12,6 @@ var config = {
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
     clean: true,
   },
   optimization: {
@@ -69,6 +68,8 @@ module.exports = (env, argv) => {
   config.mode = argv.mode;
 
   if (argv.mode === "development") config.devtool = "inline-source-map";
+
+  if (argv.mode === "production") config.output.publicPath = "web/";
 
   return config;
 };
